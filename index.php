@@ -1,37 +1,37 @@
 <?php
 
-//Variables
-//$getal = 7;
+Variables
+$getal = 7;
 
 
 
-//echo gettype ($getal);
+echo gettype ($getal);
 
-//if ($getal = is_int) {
-  //echo boolval;
-//}
+if ($getal = is_int) {
+  echo boolval;
+}
 
 
 //Oefening 1
-//$klas = ["Piet van Dijk", "Rembrandt van Rijn", "Vincent van Gogh", "Floris van Dyck"];
+$klas = ["Piet van Dijk", "Rembrandt van Rijn", "Vincent van Gogh", "Floris van Dyck"];
 
-//echo var_dump ($klas);
+echo var_dump ($klas);
 
 
 //Opdracht 2
-//$klas = ["Piet van Dijk", "Rembrandt van Rijn", "Vincent van Gogh", "Floris van Dyck"];
+$klas = ["Piet van Dijk", "Rembrandt van Rijn", "Vincent van Gogh", "Floris van Dyck"];
 
-//for ($i=0; $i < count($klas) ; $i++) {
-//  echo $klas[$i].PHP_EOL;
-//}
+for ($i=0; $i < count($klas) ; $i++) {
+  echo $klas[$i].PHP_EOL;
+}
 
 
 //Opdracht 3
-//$klas = ["Piet van Dijk", "Rembrandt van Rijn", "Vincent van Gogh", "Floris van Dyck"];
+$klas = ["Piet van Dijk", "Rembrandt van Rijn", "Vincent van Gogh", "Floris van Dyck"];
 
-//foreach ($klas as $value) {
-//  echo "$value".PHP_EOL;
-//}
+foreach ($klas as $value) {
+  echo "$value".PHP_EOL;
+}
 
 
 //Combiopdracht
@@ -50,8 +50,6 @@ var_dump($bucket_list);
 foreach ($bucket_list as $value) {
   echo "$value".PHP_EOL;
 }
-
-
 
 
 ?>
